@@ -1,7 +1,7 @@
 name: kang_connect
-description: Kang Connect - consent-based private connection app.
+description: Kang Connect - private, consent-based messaging.
 publish_to: 'none'
-version: 1.0.0+1
+version: 1.1.0+2
 
 environment:
   sdk: '>=3.3.0 <4.0.0'
@@ -10,6 +10,7 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.8
+  supabase_flutter: ^2.8.4
 
 dev_dependencies:
   flutter_test:
